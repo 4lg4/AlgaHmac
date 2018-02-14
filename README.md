@@ -4,14 +4,14 @@ NodeJS Hmac class using promises
 
 ### How to use
 ````javascript
-import Hmac from './Hmac'
+import AlgaHmac from './AlgaHmac'
 
 const secret = 'myverySecret';
 const input = 'myTextInput bla bla bla';
 
 Promise
     .resolve()
-    .then(()=>new Hmac({
+    .then(()=>new AlgaHmac({
         secret,
         input
     }))
