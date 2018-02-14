@@ -4,7 +4,7 @@
 
 import crypto from 'crypto'
 
-export default class Hmac {
+export default class AlgaHmac {
     constructor(props={}){
         this.props = props;
 
